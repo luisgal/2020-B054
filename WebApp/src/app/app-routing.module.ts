@@ -5,6 +5,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { MenuComponent } from './components/menu/menu.component';
 
 const routes: Routes = [
+  { path:'', redirectTo: '/header', pathMatch:'full'},
   { path: 'menu', component:  MenuComponent},
   { path: 'header', component: HeaderComponent},
   { path: 'cargaImagen', component: CargaImagenComponent}
