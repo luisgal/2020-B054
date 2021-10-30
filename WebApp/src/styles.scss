@@ -1,14 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
-body {
-    font-family: 'Raleway', sans-serif;
-    background-image: radial-gradient(circle at center, #899Dc4, #495D84);
+body{
     background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
-    height: 100vh;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: radial-gradient(ellipse at bottom, #47C8C8, #0B5151);
-    font-weight: 300;
-  }
+    background-attachment: fixed;
+    background-image: url('../src/assets/backgroundImage.jpg');
+}
